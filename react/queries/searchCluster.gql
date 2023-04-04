@@ -1,0 +1,9 @@
+query searchCluster ($emailSession: String) {
+  getCluster (emailSession: $emailSession) {
+    cluster {
+      oldOrderId
+      oldOrderCart
+      oldOrderDate
+    }
+  }
+}
