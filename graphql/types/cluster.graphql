@@ -1,0 +1,12 @@
+# /graphql/types/cluster.graphql
+
+
+type OldOrder {
+  oldOrderId: String
+  oldOrderCart: String
+  oldOrderDate: String
+}
+
+type Cluster {
+  cluster: [OldOrder]
+}
